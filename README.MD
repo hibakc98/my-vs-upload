@@ -1,20 +1,23 @@
 # 🚦 Accident Detection and Classification
 
-## Project Overview
-This project uses Machine Learning techniques to analyze traffic-related data and classify accident-related outcomes.
+## 📌 Project Overview
 
-The project uses a synthetic traffic dataset containing approximately 200,000 records.
+This project focuses on detecting and classifying traffic accidents using Machine Learning techniques.
 
-## Objectives
-- Analyze traffic and accident data.
-- Perform Exploratory Data Analysis (EDA).
+The project uses a synthetic traffic benchmark dataset containing approximately 200,000 records.
+
+## 🎯 Objectives
+
+- Analyze traffic accident data.
+- Perform data preprocessing.
 - Handle missing values.
-- Perform categorical encoding.
+- Perform Exploratory Data Analysis.
 - Train a Machine Learning classification model.
 - Evaluate model performance.
 - Deploy the model using Streamlit.
 
-## Technologies Used
+## 🛠️ Technologies Used
+
 - Python
 - Pandas
 - NumPy
@@ -22,32 +25,19 @@ The project uses a synthetic traffic dataset containing approximately 200,000 re
 - Seaborn
 - Scikit-learn
 - Streamlit
-- Jupyter Notebook
 
-## Dataset
-**File:** `synthetic_traffic_benchmark_200k.csv`
-
-The dataset contains approximately 200,000 synthetic traffic records.
-
-## Project Files
+## 📂 Project Files
 
 | File | Description |
 |---|---|
-| `app.py` | Streamlit application |
-| `accident_detection.pkl` | Trained ML model |
-| `accident_detection_classification.ipynb` | Accident classification notebook |
-| `classification.ipynb` | Classification analysis |
-| `requirements.txt` | Required Python libraries |
-| `synthetic_traffic_benchmark_200k.csv` | Dataset |
+| app.py | Streamlit application |
+| accident_detection.pkl | Trained ML model |
+| accident_detection_classification.ipynb | Accident classification notebook |
+| classification.ipynb | Classification notebook |
+| requirements.txt | Required libraries |
+| synthetic_traffic_benchmark_200k.csv | Dataset |
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/hibakc98/my-vs-upload.git
-cd my-vs-upload
-```
+## 🚀 How to Run
 
 Install dependencies:
 
@@ -61,10 +51,12 @@ Run the application:
 streamlit run app.py
 ```
 
-## Author
+## 👩‍💻 Author
+
 **Hiba KC**
 
 GitHub: https://github.com/hibakc98
 
-## Purpose
-Educational and Machine Learning project.
+## 📜 Purpose
+
+This project is developed for educational and Machine Learning purposes.
